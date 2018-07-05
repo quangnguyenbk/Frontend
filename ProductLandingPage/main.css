@@ -1,0 +1,106 @@
+#header-img{
+    max-width: 50%;
+    height: auto;
+}
+
+#menu-img{
+    width: 50%;
+    float:left;
+}
+
+#header{
+    height: 70px;
+    position: fixed;
+    opacity: 1;
+    background: #eee;
+    top: 0;
+}
+
+#nav-bar{
+    width: 50%;
+    float: right;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 1000;
+}
+
+#form{
+    text-align: center;
+}
+
+#label-email{
+    font-size: 40px;
+}
+
+#email{
+    width: 200px;
+    margin: 10px auto 10px auto;
+}
+
+body {
+    background: #eee;
+}
+
+#Features{
+    display: flex;
+    justify-content: center;
+}
+
+#How-it-work{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    max-width: 300px;
+    width: 30%;
+    float: left;
+    border: black;
+    border-style: solid;
+    text-align: center;
+    margin:auto;
+}
+
+#Pricing{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+footer{
+    background: #d8cece;
+}
+
+#footer-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-li{
+    margin: 10px;
+}
+
+#footer-span{
+    display: flex;
+    justify-content: flex-end;
+}
+
+main{
+    padding-top: 70px;
+}
+
+@media only screen and (max-width: 900px){
+    #Pricing{
+        flex-direction: column;
+    }
+}

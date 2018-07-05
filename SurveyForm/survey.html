@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+</head>
+<body>
+    <header>
+        <h1 id="title">Survey</h1>
+    </header>
+    <div id="main">
+        
+        <p id="description">Let us know how we can improve freeCodeCamp</p>
+        
+        <form id="survey-form">
+            <div class="rowTab">
+                <div class="left">
+                    <label id="name-label" for="name">* Name:</label>
+                </div>
+                <div class="right">
+                    <input class="textField" type="text" id="name" name="name" placeholder="Enter your name"  required>
+                </div>
+            </div>
+            
+            <div class="rowTab">
+                <div class="left">
+                    <label id="email-label" for="email">* Email:</label>
+                </div>
+                <div class="right">
+                    <input class="textField" type="email" id="email" name="email" placeholder="Enter your email" pattern="[A-Za-z1-9]+[@][A-Za-z1-9]+[\\.][A-Za-z1-9]+" required>
+                </div>
+            </div>
+            
+            <div class="rowTab">
+                <div class="left">
+                    <label id="number-label" for="age">* Age:</label>
+                </div>
+                <div class="right">
+                    <input class="textField" type="number" id="number" min="1" max="125" name="age" placeholder="Age" required>
+                </div>
+            </div>  
+            
+            <div class="rowTab">
+                <div class="left">
+                    <label id="dropdown-label" for="dropdown">
+                        Which option best describes your
+                        <br> 
+                        current role?
+                        
+                    </label>
+                </div>
+                <div class="right">
+                    <div class="item">
+                        <select id="dropdown" name="dropdown">
+                            <option value="Student">Student</option>
+                            <option value="FullTimeJob">Full Time Job</option>
+                            <option value="FullTimeLearner">Full Time Learner</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div> 
+
+            <div class="rowTab">
+                <div class="left">
+                    <label id="number-label" for="age" >
+                        * How likely is that you would 
+                        <br>recommend freeCodeCamp to a 
+                        <br>friend?
+                    </label>
+                </div>
+                <div class="right">
+                    <div class="item"><input type="radio" name="RadioSurvey" value="Definitely" >Definitely</div>
+                    <div class="item"><input type="radio" name="RadioSurvey" value="Maybe" >Maybe</div>
+                    <div class="item"><input type="radio" name="RadioSurvey" value="Not sure" >Not sure</div>
+
+                </div>
+            </div>
+
+            <div class="rowTab">
+                <div class="left">
+                    <label id="checkbox-label" for="CheckboxSurvey">
+                        Things that should be improved in the
+                        <br>future
+                        <br>(Check all that apply):
+                    </label>
+                </div>
+                <div class="right">
+                    <div class="item"><input  type="checkbox" name="CheckboxSurvey" value="Front-end Projects" >Front-end Projects</div>
+                    <div class="item"><input  type="checkbox" name="CheckboxSurvey" value="Back-end Projects" >Back-end Projects</div>
+                    <div class="item"><input  type="checkbox" name="CheckboxSurvey" value="Data Visualization" >Data Visualization</div>
+                    <div class="item"><input  type="checkbox" name="CheckboxSurvey" value="Challenges" >Challenges</div>
+                    <div class="item"><input  type="checkbox" name="CheckboxSurvey" value="Open Source Community" >Open Source Community</div>
+                    
+                </div>
+            </div>
+            
+            <div class="rowTab">
+                <div class="left">
+                    <label id="textarea-label" for="comment">
+                        Any Comments or Suggestions?
+                        
+                        
+                    </label>
+                </div>
+                <div class="right">
+                    <textarea rows="4" cols="40" id="text-area" name="comment" placeholder="Enter your comment here..">
+
+                    </textarea>
+                </div>
+            </div>
+
+            <div class="rowTab" >
+                <input id="submit" type="submit" value="submit">
+            </div>
+            
+
+            
+        </form>
+        
+        
+    </div>
+</body>
+</html>

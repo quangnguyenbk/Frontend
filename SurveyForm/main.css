@@ -1,0 +1,47 @@
+body{
+    background-color: #a9d7d1;
+    text-align: center;
+    margin: auto;
+}
+
+#main {
+    margin: 15px 15% 15px 15%;
+    background-color: white;
+}
+
+#survey-form{
+    height: 600px;
+}
+
+.rowTab{
+    margin: 15px;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.right{
+    width: 48%;
+    float: left;
+}
+
+.left{
+    width: 48%;
+    float: left;
+    text-align: right;
+}
+
+.textField{
+    width: 80%;
+    height: 20px;
+}
+
+label{
+    text-align: right;
+}
+
+.item{
+    margin-left: 15%;
+    text-align: left;
+}
+
